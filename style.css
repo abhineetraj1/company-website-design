@@ -1,0 +1,113 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	margin: 0px;
+	padding: 0px;
+	background: #006ae2;
+	height: 100vh;
+	width: 100%;
+}
+#tt{
+	padding: 3px;
+	width: 100%;
+	margin: 3px;
+	text-align: center;
+	font-family: Bahnschrift;
+	color: white;
+	font-size: 40px;
+}
+#tt-i{
+	height: 250px;
+	border-radius: 12px;
+}
+.div-tt{
+	text-align: center;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	font-size: 32px;
+}
+#i1{
+	font-size: 21px;
+	text-align: left;
+	padding: 2vh;
+	font-family: Cambria Math;
+	margin: 2vh;
+	color: white;
+}
+#ig{
+	border-radius: 50px;
+	height: 330px;
+}
+.ser-con{
+	float: left;
+	color: white;
+	margin: 1vh;
+	border-radius: 15px;
+	border: solid;
+	background: #006ae2;
+	width: 350px;
+	text-align: center;
+}
+.ser-tt{
+	font-family: Bahnschrift;
+	font-size: 23px;
+	font-weight: bold;
+}
+.ser-des{
+	padding: 3px;
+	font-size: 19px;
+}
+.ser-btn{
+	background: white;
+	color: #006ae2;
+	font-family: Bahnschrift;
+	font-size: 20px;
+	padding: 3px;
+	border-width: 0px;
+	margin: 3px;
+	border-radius: 12px;
+}
+.con-btn{
+	background: white;
+	color: black;
+	font-family: Bahnschrift;
+	font-size: 20px;
+	padding: 3px;
+	border-width: 0px;
+	margin: 3px;
+	border-radius: 12px;
+}
+#hire{
+	float: left;
+	margin: 0px;
+	text-align: center;
+	width: 100%;
+	background: #006ae2;
+	color: white;
+}
+#con-ta{
+	width: 90%;
+	border-radius: 8px;
+	height: 250px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.con-inpt{
+	height: 25px;
+	padding: 2px;
+	padding-left: 3px;
+	width: 90%;
+	border-radius: 8px;
+	border-width: 0px;
+	text-align: left;
+	font-family: Calibri;
+	font-size: 20px;
+	margin: 1vh;
+}
+.con-text{
+	font-family: Calibri;
+	font-size: 20px;
+}

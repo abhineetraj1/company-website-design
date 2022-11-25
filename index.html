@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="fav.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Company</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+	</style>
+</head>
+<body>
+<div class="container">
+	<div id="tt">Company name</div>
+	<div style="text-align: center;align-content: center;">
+		<div id="i1">
+			<p>-Transform your business with more efficient and innovative ideas</p>
+			<p>-We help you to make your business more scalable, productive and reliable</p>
+			<a href="#service"><button class="ser-btn">Get started with our services -></button></a>
+		</div>
+		<img src="w3.gif" id="ig">
+	</div>
+</div>
+
+<div id="service">
+	<p class="div-tt">Our services</p>
+	<style type="text/css">
+	</style>
+	<div class="ser-con">
+		<p class="ser-tt">Mobile app development</p>
+		<p class="ser-des">Dynamic Android App suitable for any Mobile Devices.Our team is expert on developing them. Get a Ready made app for your need.</p>
+		<a href="#hire"><button class="ser-btn">hire us</button></a>
+	</div>
+
+	<div class="ser-con">
+		<p class="ser-tt">Blockchain development</p>
+		<p class="ser-des"> Blockchain development is the process of creating shared, unchangeable, distributed ledger technology (DLT) that securely records transactions and tracks assets.</p>
+		<a href="#hire"><button class="ser-btn">hire us</button></a>
+	</div>
+
+	<div class="ser-con">
+		<p class="ser-tt">Web app development</p>
+		<p class="ser-des">Best Quality iOS App, Android App & Web App Development Services. We are much more than just a development company, we are a strategic partner.</p>
+		<a href="#hire"><button class="ser-btn">hire us</button></a>
+	</div>
+
+	<div class="ser-con">
+		<p class="ser-tt">Website development</p>
+		<p class="ser-des">best web development services with complete support from experts. Our team of experts can help in web development and e-commerce website development.</p>
+		<a href="#hire"><button class="ser-btn">hire us</button></a>
+	</div>
+
+	<div class="ser-con">
+		<p class="ser-tt">Software development</p>
+		<p class="ser-des">Best software development service. We offer your softwares like monitoring system, security apps, and many more</p>
+		<a href="#hire"><button class="ser-btn">hire us</button></a>
+	</div>
+
+	<div class="ser-con">
+		<p class="ser-tt">Data analytics</p>
+		<p class="ser-des">It is a process to analyse data to get the raw conclusion about the information with specific software</p>
+		<a href="#hire"><button class="ser-btn">hire us</button></a>
+	</div>
+
+	<div class="ser-con">
+		<p class="ser-tt">Big data processing</p>
+		<p class="ser-des">This service helps you to take decision according to the insights data and forecast data.</p>
+		<a href="#hire"><button class="ser-btn">hire us</button></a>
+	</div>
+
+	<div class="ser-con">
+		<p class="ser-tt">iOT techs</p>
+		<p class="ser-des">Control your devices through internet and other networks in order to maintain workflow.</p>
+		<a href="#hire"><button class="ser-btn">hire us</button></a>
+	</div>
+	<div class="ser-con">
+		<p class="ser-tt">DevOps</p>
+		<p class="ser-des">It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.</p>
+		<a href="#hire"><button class="ser-btn">hire us</button></a>
+	</div>
+</div>
+
+
+<div id="hire">
+	<p class="div-tt">Hire Us</p>
+	<form>
+		<input class="con-inpt" placeholder="Enter your project name" type="text" name="name"><br>
+		<input class="con-inpt" placeholder="Enter your email ID" type="email" name="email"><br>
+		<input class="con-inpt" placeholder="Services you need" type="text" name="budget"><br>
+		<p class="con-text">Enter the budget of your project (in usd)</p>
+		<m class="con-text">1000 $</m><br>
+		<input type="range" id="rge" name="budget" value="1000" min="1000" max="500000"><br>
+		<textarea id="con-ta" placeholder="Enter your project desciption (what is your aim, what are your services and others ......)"></textarea><br>
+		<button class="con-btn">Submit</button>
+	</form>
+	
+</div>
+
+<script type="text/javascript">
+	if(window.innerWidth > window.innerHeight) {
+		document.getElementById('i1').style.width="40%";
+		document.getElementById('con-ta').style.width="40%";
+		document.getElementById("i1").style.float="left";
+		for (var n=0; n < document.getElementsByClassName('ser-con').length; n++) {
+			document.getElementsByClassName('ser-con')[n].style.height="235px";
+		}
+		for (var n=0; n < document.getElementsByClassName('con-inpt').length; n++) {
+			document.getElementsByClassName('con-inpt')[n].style.width="40%";
+		}
+	}
+	document.getElementById("rge").oninput = function (e) {
+		document.getElementsByClassName("con-text")[1].innerHTML = document.getElementById("rge").value + " $";
+	}
+</script>
+</body>
+</html>
